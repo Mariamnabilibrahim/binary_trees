@@ -1,8 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_size - function that return the size of a tree
- * @tree: tree to check
+ * binary_tree_size - function that measures the size of a binary tree
+ * @tree:  is a pointer to the root node
+ * of the tree to measure the size
  * Return: size of tree
 */
 
