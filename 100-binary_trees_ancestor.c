@@ -30,7 +30,7 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 	}
 	else if (y == NULL || x == second || (!y->parent && x))
 	{
-		return (binary_trees_ancestor(p, second));
+		return (binary_trees_ancestor(x, second));
 	}
 	return (binary_trees_ancestor(x, y));
 }
